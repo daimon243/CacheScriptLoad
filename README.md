@@ -1,7 +1,7 @@
 # Load and cache scripts and styles
 The given script is intended for loading and caching js and css files in local storage.
 
-Tested with Chrome, Firefox, Opera, Safari, IE 7,8,9,10, Edge
+#### Tested with Chrome, Firefox, Opera, Safari, IE 7,8,9,10, Edge
 
 The cache is controlled based on the version of the flies and the variants of the caching.
 ### There are three options for caching files:
@@ -12,14 +12,14 @@ The cache is controlled based on the version of the flies and the variants of th
 	2: cache, but use only through the cache. First, the file is loaded into the cache, and then
 		injected into the DOM. Thus, the file is loaded only once.
 Variants 0 and 1 are used for the convenience of debugging development tools in browsers,
-option 2 for production.        
+option 2 for production.
 
 The load () method, which directly starts the boot process, takes two parameters, two configurations
 whose structure is identical, but if both parameters are passed, then the configs first merging, and
 in the resulting config the parameters in the first config have a higher weight, i.e. if the equals
-keys in first and second config, the values ​​are taken from the first configuration, if the keys are
+keys in first and second config, the values are taken from the first configuration, if the keys are
 different then the resulting configuration will have the data of both the first and second configurations.
-This feature is implemented to ensure the scalability of the project, of which the script is a part.         
+This feature is implemented to ensure the scalability of the project, of which the script is a part.
 
 Loading is carried out in two stages. At the first stage, a file with versions of scripts and styles is
 loaded, in the second stage files with versions of which do not correspond to the versions of files in the
