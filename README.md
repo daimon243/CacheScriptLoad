@@ -1,5 +1,6 @@
 # Load and cache scripts and styles
 The given script is intended for loading and caching js and css files in local storage.
+
 Tested with Chrome, Firefox, Opera, Safari, IE 7,8,9,10, Edge
 
 The cache is controlled based on the version of the flies and the variants of the caching.
