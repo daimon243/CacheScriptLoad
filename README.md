@@ -1,6 +1,7 @@
 # Load and cache scripts and styles
 The given script is intended for loading and caching js and css files in local storage.
-tested with Chrome, Firefox, Opera, Safari, IE 7,8,9,10, Edge
+
+#### Tested with Chrome, Firefox, Opera, Safari, IE 7,8,9,10, Edge
 
 #### Tested with Chrome, Firefox, Opera, Safari, IE 7,8,9,10, Edge
 
