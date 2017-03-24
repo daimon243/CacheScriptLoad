@@ -1,0 +1,12 @@
+CACHE MANIFEST
+# 2017 mar 02 v 0.2.1
+
+# Explicitly cached 'master entries'.
+CACHE:
+favicon.ico
+index.html
+release/loader-min.js
+
+# Resources that require the user to be online.
+NETWORK:
+*

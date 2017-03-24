@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<!-- <html manifest="manifest.txt"> -->
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Load and Cache scripts and styles</title>
+<!--[if lt IE 8]>
+<script src="contrib/JSON-js/json2.js"></script>
+<![endif]-->
+<script src="release/loader-min.js"></script>
+<script type="text/javascript">
+loader.load({
+    modules: {
+        conf1: {
+            load: {
+                url: 'tests/loaderconf.js',
+                version: '0',
+                cache: 0
+            }
+        }
+    },
+    onLoad: function () {
+        console.log('config loaded ', loader.getcfg());
+        loader.load(loaderconf);
+    }
+}, null);
+</script>
+</head>
+<body>
+</body>
+</html>

@@ -1,0 +1,21 @@
+{
+  "name": "ScriptLoadAndCache",
+  "version": "0.1.1",
+  "description": "Generated with Eclipse npm Tools",
+  "main": "loader.js",
+  "scripts": {
+    "test": "echo 'Error: no test specified' && exit 1"
+  },
+  "author": "Dmitry Teikovtcev",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-closurecompiler": "^0.9.9",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-eslint": "^19.0.0",
+    "grunt-jsdoc": "^2.1.0",
+    "jsdoc-oblivion": "0.0.4"
+  }
+}

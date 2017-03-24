@@ -1,0 +1,24 @@
+{
+  "tags": {
+    "allowUnknownTags": true
+  },
+  "source": {
+    "includePattern": ".+\\.js(doc)?$",
+    "excludePattern": "(^|\\/|\\\\)_"
+  },
+  "plugins": [],
+  "templates": {
+    "cleverLinks": false,
+    "monospaceLinks": false,
+    "default": {
+      "outputSourceFiles": true
+    },
+    "systemName"      : "Ws2Pg",
+    "footer"          : "use, repost these materials only with reference to the author daimon243@gmail.com, Dmitry Teikovtsev, Dnepr, Ukraine",
+    "copyright"       : "copy right daimon",
+    "theme"           : "oblivion",
+    "linenums"        : true,
+    "collapseSymbols" : false,
+    "inverseNav"      : true
+  }
+}
